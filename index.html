@@ -11,7 +11,7 @@
     <section id="study" class="panel hidden">
       <p class="eyebrow">STUDY SETUP</p><h1>Choose your<br>next challenge.</h1>
       <p class="intro">Pick a list and how you want to practice. Missed words return later, after we show you the right answer.</p>
-      <div class="setup"><h3>Vocabulary list</h3><div id="listChoices" class="list-choices"></div><h3>Answer with</h3><div class="choice-row"><label><input type="radio" name="direction" value="word" checked> Vocabulary word <small>See the definition</small></label><label><input type="radio" name="direction" value="definition"> Definition <small>See the word</small></label></div><h3>Answer style</h3><div class="choice-row"><label><input type="radio" name="style" value="typing" checked> Type my answer</label><label><input type="radio" name="style" value="multiple"> Multiple choice</label></div></div>
+      <div class="setup"><h3>Vocabulary list</h3><div id="listChoices" class="list-choices"></div><h3>Answer with</h3><div class="choice-row"><label><input type="radio" name="direction" value="word" checked> Vocabulary word <small>See the definition</small></label><label><input type="radio" name="direction" value="definition"> Definition <small>See the word</small></label></div><h3>Answer style</h3><div class="choice-row"><label><input type="radio" name="style" value="typing" checked> Type my answer</label><label><input type="radio" name="style" value="multiple"> Multiple choice</label></div><h3>Study length</h3><label class="toggle"><input type="checkbox" id="endless" checked><strong>Endless mode</strong><small>Keep receiving random five-word sets.</small></label></div>
       <button class="primary" id="start">Start a set</button><p id="setInfo" class="muted"></p>
     </section>
     <section id="quiz" class="panel hidden" aria-live="polite">
@@ -21,8 +21,8 @@
       <div id="choices" class="choices hidden"></div>
       <div id="feedback" class="feedback hidden"></div><button id="next" class="primary hidden">Next word</button>
     </section>
-    <section id="done" class="panel hidden"><p class="eyebrow">SET COMPLETE</p><h1>Excellent work.</h1><p class="intro">You completed every word correctly. Ready for a fresh set?</p><button class="primary" id="again">Start next set</button></section>
+    <section id="done" class="panel hidden"><p class="eyebrow" id="doneLabel">SET COMPLETE</p><h1 id="doneTitle">Excellent work.</h1><p class="intro" id="doneText">You completed every word correctly. Ready for a fresh set?</p><button class="primary" id="again">Start next set</button></section>
     <section id="error" class="panel hidden"><p class="eyebrow">SETUP NEEDED</p><h1>Vocabulary list unavailable.</h1><p class="intro">Make sure <code>data/vocabulary.json</code> is in this repository, then wait a minute for GitHub Pages to publish the change.</p></section>
-  </main><footer>Vocabulary Steps · Vocabulary updates are managed by the site owner on GitHub.</footer>
+  </main><footer>Vocab updated by Gavin Vukan</footer>
   <script src="app.js"></script>
 </body></html>

@@ -4,6 +4,8 @@ A no-cost, static vocabulary study site designed for GitHub Pages. Learners get 
 
 On the home screen, learners choose a vocabulary list, choose whether to answer with the word or its definition, and choose typed answers or randomized multiple-choice answers. The default is typing the vocabulary word from its definition.
 
+**Endless mode** is on by default and provides fresh random five-word sets. Turn it off to study the selected list in order: words stay in five-word sets, and the session ends only after every word in the full list has been answered correctly.
+
 ## Publish on GitHub Pages
 
 1. Push these files to your repository's `main` branch.
