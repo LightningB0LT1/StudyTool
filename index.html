@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary Steps</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Vocabulary <em>Steps</em></a><span class="tag">STUDY TOOL</span></header>
+  <main>
+    <section id="loading" class="panel"><p>Loading your vocabulary list…</p></section>
+    <section id="study" class="panel hidden">
+      <p class="eyebrow">YOUR NEXT SET</p><h1>Build confidence,<br>one word at a time.</h1>
+      <p class="intro">Answer every word correctly to finish the set. Missed words return later, after we show you the right answer.</p>
+      <button class="primary" id="start">Start a set</button><p id="setInfo" class="muted"></p>
+    </section>
+    <section id="quiz" class="panel hidden" aria-live="polite">
+      <p class="eyebrow" id="progress"></p><div class="bar"><i id="bar"></i></div>
+      <h2 id="word"></h2><p>What does this word mean?</p>
+      <form id="answerForm"><label class="sr-only" for="answer">Your definition</label><input id="answer" autocomplete="off" placeholder="Type the definition…" required><button class="primary">Check answer</button></form>
+      <div id="feedback" class="feedback hidden"></div><button id="next" class="primary hidden">Next word</button>
+    </section>
+    <section id="done" class="panel hidden"><p class="eyebrow">SET COMPLETE</p><h1>Excellent work.</h1><p class="intro">You completed every word correctly. Ready for a fresh set?</p><button class="primary" id="again">Start next set</button></section>
+    <section id="error" class="panel hidden"><p class="eyebrow">SETUP NEEDED</p><h1>Vocabulary list unavailable.</h1><p class="intro">Make sure <code>data/vocabulary.json</code> is in this repository, then wait a minute for GitHub Pages to publish the change.</p></section>
+  </main><footer>Vocabulary Steps · Vocabulary updates are managed by the site owner on GitHub.</footer>
+  <script src="app.js"></script>
+</body></html>

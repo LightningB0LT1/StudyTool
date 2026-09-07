@@ -1,28 +1,30 @@
 # Vocabulary Steps
 
-A vocabulary practice app where learners must complete every question in a set correctly before moving on. A missed definition immediately shows the correct answer, then that word returns later in the same set until it is answered correctly. The administrator alone can add, edit, or remove words and change the questions-per-set length.
+A no-cost, static vocabulary study site designed for GitHub Pages. Learners get a random set of words and must answer every word correctly to complete it. When an answer is incorrect, the correct definition is shown and the word returns later in the same set.
 
-## Run locally
+## Publish on GitHub Pages
 
-1. Install [Node.js 20+](https://nodejs.org/).
-2. Run `npm install`.
-3. Copy `.env.example` to `.env`, then choose a strong `ADMIN_PASSWORD` and a long random `SESSION_SECRET`.
-4. Load those variables in your shell, then run `npm start` and open `http://localhost:3000`.
+1. Push these files to your repository's `main` branch.
+2. In the GitHub repository, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch **main**, folder **/(root)**, then click **Save**.
+5. Wait a minute or two. GitHub will show the public site address on that same page.
 
-PowerShell example:
+`index.html` is now in the repository root, which is why the deployed site will open the study tool instead of this README.
 
-```powershell
-$env:ADMIN_PASSWORD='your-long-password'
-$env:SESSION_SECRET='a-long-random-value'
-npm start
+## Change words or set length
+
+You do **not** need to edit code. On GitHub:
+
+1. Open `data/vocabulary.json`.
+2. Click the pencil icon (**Edit this file**).
+3. Edit `setLength` for the number of questions per set, or edit/add entries under `words`.
+4. Click **Commit changes**. GitHub Pages publishes the update automatically.
+
+Each word follows this shape:
+
+```json
+{ "id": "unique-id", "word": "abate", "definition": "to become less intense or widespread", "acceptedAnswers": [] }
 ```
 
-## Deploying from GitHub
-
-Push this repository to GitHub, then deploy it to a Node-capable host (such as Render, Railway, Fly.io, or a VPS). Set `ADMIN_PASSWORD` and `SESSION_SECRET` as **host environment variables**, never in GitHub files. Attach persistent storage and set `VOCAB_DATA_PATH` to a file on that persistent volume; otherwise host restarts can discard vocabulary edits.
-
-GitHub Pages is not suitable for this version: it is static-only and would expose any administrator password in the browser. The server verifies administrator sessions and keeps the password secret.
-
-## Vocabulary format
-
-The initial list is in `data/vocabulary.json`. Use the Administrator screen after deployment for routine changes. Definitions are checked case-insensitively; exact wording is required. The data format supports optional `acceptedAnswers` for alternate phrasings if you add them directly to the JSON.
+Only people with write access to your GitHub repository can change this list. Keep the repository private if you also want to keep the words private; GitHub Pages availability for private repositories depends on your GitHub plan. The deployed vocabulary list itself is readable by visitors, which is normal for a public study site.
