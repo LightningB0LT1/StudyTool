@@ -1,21 +1,36 @@
 {
   "setLength": 5,
   "lists": [
-    { "id": "foundations", "name": "Foundations", "description": "Everyday academic vocabulary", "words": [
-    { "id": "abate", "word": "abate", "definition": "to become less intense or widespread", "acceptedAnswers": [] },
-    { "id": "benevolent", "word": "benevolent", "definition": "well meaning and kindly", "acceptedAnswers": [] },
-    { "id": "candid", "word": "candid", "definition": "truthful and straightforward", "acceptedAnswers": [] },
-    { "id": "diligent", "word": "diligent", "definition": "having or showing care in one's work", "acceptedAnswers": [] },
-    { "id": "eloquent", "word": "eloquent", "definition": "fluent or persuasive in speaking or writing", "acceptedAnswers": [] },
-    { "id": "frugal", "word": "frugal", "definition": "sparing or economical with money or food", "acceptedAnswers": [] }
-    ] },
-    { "id": "challenge", "name": "Challenge", "description": "A more advanced word set", "words": [
-      { "id": "capricious", "word": "capricious", "definition": "given to sudden and unaccountable changes of mood or behavior", "acceptedAnswers": [] },
-      { "id": "enervate", "word": "enervate", "definition": "to cause someone to feel drained of energy or vitality", "acceptedAnswers": [] },
-      { "id": "fastidious", "word": "fastidious", "definition": "very attentive to detail", "acceptedAnswers": [] },
-      { "id": "laconic", "word": "laconic", "definition": "using very few words", "acceptedAnswers": [] },
-      { "id": "pragmatic", "word": "pragmatic", "definition": "dealing with problems in a practical way", "acceptedAnswers": [] },
-      { "id": "ubiquitous", "word": "ubiquitous", "definition": "present, appearing, or found everywhere", "acceptedAnswers": [] }
-    ] }
+    {
+      "id": "mr-trumble-weeks-1-2",
+      "name": "Mr.Trumble weeks 1-2",
+      "description": "24 vocabulary words from weeks 1 and 2",
+      "words": [
+        { "id": "palindrome", "word": "palindrome", "definition": "a word or phrase which reads the same backward and forward", "acceptedAnswers": [] },
+        { "id": "adage", "word": "adage", "definition": "an old saying now accepted as being truthful", "acceptedAnswers": [] },
+        { "id": "hackneyed", "word": "hackneyed", "definition": "made common by overuse", "acceptedAnswers": [] },
+        { "id": "lurid", "word": "lurid", "definition": "glowing through haze; shocking; sensational", "acceptedAnswers": [] },
+        { "id": "throe", "word": "throe", "definition": "spasm or pang", "acceptedAnswers": [] },
+        { "id": "edify", "word": "edify", "definition": "to instruct and improve the mind", "acceptedAnswers": [] },
+        { "id": "vitiate", "word": "vitiate", "definition": "to spoil; to cause moral weakness", "acceptedAnswers": [] },
+        { "id": "eminence", "word": "eminence", "definition": "a lofty place; superiority", "acceptedAnswers": [] },
+        { "id": "vehement", "word": "vehement", "definition": "using great force; described by strong feelings", "acceptedAnswers": [] },
+        { "id": "astringent", "word": "astringent", "definition": "harsh, biting", "acceptedAnswers": [] },
+        { "id": "chary", "word": "chary", "definition": "cautious", "acceptedAnswers": [] },
+        { "id": "untoward", "word": "untoward", "definition": "unfortunate", "acceptedAnswers": [] },
+        { "id": "educe", "word": "educe", "definition": "to draw out", "acceptedAnswers": [] },
+        { "id": "whet", "word": "whet", "definition": "to sharpen by rubbing; to stimulate", "acceptedAnswers": [] },
+        { "id": "relegate", "word": "relegate", "definition": "1. to assign to an inferior position; 2. to commit to an action", "acceptedAnswers": [] },
+        { "id": "lucid", "word": "lucid", "definition": "1. shiny; 2. clear-minded", "acceptedAnswers": [] },
+        { "id": "hone", "word": "hone", "definition": "1. something to sharpen; 2. to sharpen", "acceptedAnswers": [] },
+        { "id": "coy", "word": "coy", "definition": "1. modest; bashful; 2. pretending shyness to attract", "acceptedAnswers": [] },
+        { "id": "effervescence", "word": "effervescence", "definition": "1. liveliness; spirit; enthusiasm; 2. bubbliness", "acceptedAnswers": [] },
+        { "id": "fervid", "word": "fervid", "definition": "1. intensely hot; 2. impassioned", "acceptedAnswers": [] },
+        { "id": "imperious", "word": "imperious", "definition": "1. arrogant; 2. urgent", "acceptedAnswers": [] },
+        { "id": "miscreant", "word": "miscreant", "definition": "an evil person; villain", "acceptedAnswers": [] },
+        { "id": "chafe", "word": "chafe", "definition": "to annoy; to irritate", "acceptedAnswers": [] },
+        { "id": "duress", "word": "duress", "definition": "1. imprisonment; 2. the use of threats", "acceptedAnswers": [] }
+      ]
+    }
   ]
 }

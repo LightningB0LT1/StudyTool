@@ -29,6 +29,19 @@ Each word follows this shape:
 { "id": "unique-id", "word": "abate", "definition": "to become less intense or widespread", "acceptedAnswers": [] }
 ```
 
-Each selectable list has an `id`, `name`, `description`, and its own `words` list. Use the existing **Foundations** and **Challenge** lists as examples.
+Each selectable list has an `id`, `name`, `description`, and its own `words` list. There is currently only one full list: **Mr.Trumble weeks 1-2**. To add Weeks 3-4 later, duplicate the object below inside the `lists` array, add a comma after the existing list, then replace the title, description, and words:
+
+```json
+{
+  "id": "mr-trumble-weeks-3-4",
+  "name": "Mr.Trumble weeks 3-4",
+  "description": "Vocabulary words from weeks 3 and 4",
+  "words": [
+    { "id": "new-word", "word": "new word", "definition": "the complete definition", "acceptedAnswers": [] }
+  ]
+}
+```
+
+The new title will automatically appear as a selectable set on the home page after GitHub Pages republishes the change.
 
 Only people with write access to your GitHub repository can change this list. Keep the repository private if you also want to keep the words private; GitHub Pages availability for private repositories depends on your GitHub plan. The deployed vocabulary list itself is readable by visitors, which is normal for a public study site.
