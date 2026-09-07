@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary Steps</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="#study">Vocabulary <em>Steps</em></a><nav><button class="link" id="studyNav">Study</button><button class="link" id="adminNav">Administrator</button></nav></header>
+  <main>
+    <section id="study" class="panel">
+      <p class="eyebrow">YOUR NEXT SET</p><h1>Build confidence,<br>one word at a time.</h1>
+      <p class="intro">Answer every word in a set correctly to unlock the next one. If you miss one, we will show you the answer before you continue.</p>
+      <button class="primary" id="start">Start a set</button><p id="setInfo" class="muted"></p>
+    </section>
+    <section id="quiz" class="panel hidden" aria-live="polite">
+      <p class="eyebrow" id="progress">SET 1 · 1 OF 5</p><div class="bar"><i id="bar"></i></div>
+      <h2 id="word">—</h2><p>What does this word mean?</p>
+      <form id="answerForm"><label class="sr-only" for="answer">Your definition</label><input id="answer" autocomplete="off" placeholder="Type the definition…" required><button class="primary">Check answer</button></form>
+      <div id="feedback" class="feedback hidden"></div>
+      <button id="next" class="primary hidden">Next word</button>
+    </section>
+    <section id="done" class="panel hidden"><p class="eyebrow">SET COMPLETE</p><h1>Excellent work.</h1><p class="intro">You completed every question correctly. Ready for a fresh set?</p><button class="primary" id="again">Start next set</button></section>
+    <section id="admin" class="panel hidden"><p class="eyebrow">ADMINISTRATOR</p><h1>Vocabulary library</h1>
+      <form id="login"><label for="password">Administrator password</label><div class="row"><input id="password" type="password" required><button class="primary">Sign in</button></div><p class="error" id="loginError"></p></form>
+      <div id="editor" class="hidden"><div class="setting"><label for="length">Questions in each set</label><input id="length" type="number" min="1" max="100"></div><div id="words"></div><button class="secondary" id="add">+ Add word</button><div class="row actions"><button class="primary" id="save">Save changes</button><button class="link" id="logout">Sign out</button><span id="saveStatus"></span></div></div>
+    </section>
+  </main><script src="app.js"></script>
+</body></html>
