@@ -1,11 +1,21 @@
 {
   "setLength": 5,
-  "words": [
+  "lists": [
+    { "id": "foundations", "name": "Foundations", "description": "Everyday academic vocabulary", "words": [
     { "id": "abate", "word": "abate", "definition": "to become less intense or widespread", "acceptedAnswers": [] },
     { "id": "benevolent", "word": "benevolent", "definition": "well meaning and kindly", "acceptedAnswers": [] },
     { "id": "candid", "word": "candid", "definition": "truthful and straightforward", "acceptedAnswers": [] },
     { "id": "diligent", "word": "diligent", "definition": "having or showing care in one's work", "acceptedAnswers": [] },
     { "id": "eloquent", "word": "eloquent", "definition": "fluent or persuasive in speaking or writing", "acceptedAnswers": [] },
     { "id": "frugal", "word": "frugal", "definition": "sparing or economical with money or food", "acceptedAnswers": [] }
+    ] },
+    { "id": "challenge", "name": "Challenge", "description": "A more advanced word set", "words": [
+      { "id": "capricious", "word": "capricious", "definition": "given to sudden and unaccountable changes of mood or behavior", "acceptedAnswers": [] },
+      { "id": "enervate", "word": "enervate", "definition": "to cause someone to feel drained of energy or vitality", "acceptedAnswers": [] },
+      { "id": "fastidious", "word": "fastidious", "definition": "very attentive to detail", "acceptedAnswers": [] },
+      { "id": "laconic", "word": "laconic", "definition": "using very few words", "acceptedAnswers": [] },
+      { "id": "pragmatic", "word": "pragmatic", "definition": "dealing with problems in a practical way", "acceptedAnswers": [] },
+      { "id": "ubiquitous", "word": "ubiquitous", "definition": "present, appearing, or found everywhere", "acceptedAnswers": [] }
+    ] }
   ]
 }

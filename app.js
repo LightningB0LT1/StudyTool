@@ -1,41 +1,17 @@
-const $ = selector => document.querySelector(selector);
-let vocabulary, questions = [], current = 0, set = 1, mastered = 0;
-const show = id => ['loading', 'study', 'quiz', 'done', 'error'].forEach(x => $(`#${x}`).classList.toggle('hidden', x !== id));
-const escapeHtml = text => String(text).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
-function normalized(text) { return String(text).trim().toLocaleLowerCase(); }
-async function loadVocabulary() {
-  try {
-    const response = await fetch('./data/vocabulary.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error();
-    vocabulary = await response.json();
-    if (!Array.isArray(vocabulary.words) || !vocabulary.words.length || !Number.isInteger(vocabulary.setLength)) throw new Error();
-    $('#setInfo').textContent = `${vocabulary.setLength} questions per set · ${vocabulary.words.length} words in the library`;
-    show('study');
-  } catch { show('error'); }
-}
-function startSet() {
-  const pool = [...vocabulary.words];
-  for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
-  questions = pool.slice(0, vocabulary.setLength);
-  while (questions.length < vocabulary.setLength) questions.push(vocabulary.words[Math.floor(Math.random() * vocabulary.words.length)]);
-  current = 0; mastered = 0; show('quiz'); drawQuestion();
-}
-function drawQuestion() {
-  const question = questions[current];
-  $('#progress').textContent = `SET ${set} · ${mastered} OF ${vocabulary.setLength} MASTERED`;
-  $('#bar').style.width = `${(mastered / vocabulary.setLength) * 100}%`;
-  $('#word').textContent = question.word; $('#answer').value = ''; $('#answer').disabled = false;
-  $('#answerForm').classList.remove('hidden'); $('#feedback').classList.add('hidden'); $('#next').classList.add('hidden'); $('#answer').focus();
-}
-$('#answerForm').addEventListener('submit', event => {
-  event.preventDefault(); const question = questions[current];
-  const accepted = [question.definition, ...(question.acceptedAnswers || [])].map(normalized);
-  const correct = accepted.includes(normalized($('#answer').value));
-  if (correct) mastered++; else questions.push(question);
-  $('#answer').disabled = true; $('#answerForm').classList.add('hidden');
-  const feedback = $('#feedback'); feedback.className = `feedback ${correct ? '' : 'wrong'}`;
-  feedback.innerHTML = correct ? '<strong>Correct!</strong> Nice work.' : `<strong>Not quite.</strong> The correct answer is: ${escapeHtml(question.definition)}<br><small>You will see this word again before the set is complete.</small>`;
-  $('#next').textContent = correct && mastered === vocabulary.setLength ? 'Finish set' : 'Next word'; $('#next').classList.remove('hidden');
-});
-$('#next').onclick = () => { current++; if (current === questions.length) { set++; show('done'); } else drawQuestion(); };
-$('#start').onclick = startSet; $('#again').onclick = startSet; loadVocabulary();
+const $ = s => document.querySelector(s);
+let data, activeList, questions = [], current = 0, set = 1, mastered = 0, direction = 'word', style = 'typing';
+const show = id => ['loading','study','quiz','done','error'].forEach(x => $(`#${x}`).classList.toggle('hidden', x !== id));
+const clean = text => String(text).trim().toLocaleLowerCase();
+const escapeHtml = text => String(text).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+function shuffle(items) { const copy = [...items]; for (let i = copy.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; } return copy; }
+function renderLists() { $('#listChoices').innerHTML = data.lists.map((list, i) => `<label class="list-choice"><input type="radio" name="list" value="${escapeHtml(list.id)}" ${i ? '' : 'checked'}><strong>${escapeHtml(list.name)}</strong><small>${escapeHtml(list.description || `${list.words.length} words`)}</small></label>`).join(''); }
+async function load() { try { const r = await fetch('./data/vocabulary.json', {cache:'no-store'}); if (!r.ok) throw new Error(); data = await r.json(); if (!Array.isArray(data.lists) || !data.lists.length || !Number.isInteger(data.setLength)) throw new Error(); renderLists(); $('#setInfo').textContent = `${data.setLength} questions per set`; show('study'); } catch { show('error'); } }
+function startSet() { activeList = data.lists.find(x => x.id === document.querySelector('input[name=list]:checked').value); direction = document.querySelector('input[name=direction]:checked').value; style = document.querySelector('input[name=style]:checked').value; questions = shuffle(activeList.words).slice(0, data.setLength); while (questions.length < data.setLength) questions.push(activeList.words[Math.floor(Math.random() * activeList.words.length)]); current = 0; mastered = 0; show('quiz'); draw(); }
+function answerFor(question) { return direction === 'word' ? question.word : question.definition; }
+function validAnswers(question) { return direction === 'word' ? [question.word] : [question.definition, ...(question.acceptedAnswers || [])]; }
+function promptFor(question) { return direction === 'word' ? question.definition : question.word; }
+function draw() { const q = questions[current]; $('#progress').textContent = `SET ${set} · ${mastered} OF ${data.setLength} MASTERED`; $('#bar').style.width = `${mastered / data.setLength * 100}%`; $('#word').textContent = promptFor(q); $('#prompt').textContent = direction === 'word' ? 'Which vocabulary word matches this definition?' : 'What does this vocabulary word mean?'; $('#feedback').classList.add('hidden'); $('#next').classList.add('hidden'); if (style === 'typing') { $('#answer').value = ''; $('#answer').placeholder = direction === 'word' ? 'Type the vocabulary word…' : 'Type the definition…'; $('#answer').disabled = false; $('#answerForm').classList.remove('hidden'); $('#choices').classList.add('hidden'); $('#answer').focus(); } else { $('#answerForm').classList.add('hidden'); const wrongs = shuffle(activeList.words.filter(w => w.id !== q.id)).slice(0, 3).map(answerFor); const options = shuffle([answerFor(q), ...wrongs]); $('#choices').innerHTML = options.map(option => `<button class="choice-button">${escapeHtml(option)}</button>`).join(''); $('#choices').classList.remove('hidden'); $('#choices').querySelectorAll('button').forEach(button => button.onclick = () => grade(button.textContent)); } }
+function grade(answer) { const q = questions[current]; const correct = validAnswers(q).map(clean).includes(clean(answer)); if (correct) mastered++; else questions.push(q); $('#answerForm').classList.add('hidden'); $('#choices').classList.add('hidden'); const feedback = $('#feedback'); feedback.className = `feedback ${correct ? '' : 'wrong'}`; feedback.innerHTML = correct ? '<strong>Correct!</strong> Nice work.' : `<strong>Not quite.</strong> The correct answer is: ${escapeHtml(answerFor(q))}<br><small>You will see this word again before the set is complete.</small>`; $('#next').textContent = correct && mastered === data.setLength ? 'Finish set' : 'Next word'; $('#next').classList.remove('hidden'); }
+$('#answerForm').addEventListener('submit', event => { event.preventDefault(); grade($('#answer').value); });
+$('#next').onclick = () => { current++; if (current === questions.length) { set++; show('done'); } else draw(); };
+$('#start').onclick = startSet; $('#again').onclick = startSet; load();

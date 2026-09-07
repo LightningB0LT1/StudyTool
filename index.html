@@ -9,14 +9,16 @@
   <main>
     <section id="loading" class="panel"><p>Loading your vocabulary list…</p></section>
     <section id="study" class="panel hidden">
-      <p class="eyebrow">YOUR NEXT SET</p><h1>Build confidence,<br>one word at a time.</h1>
-      <p class="intro">Answer every word correctly to finish the set. Missed words return later, after we show you the right answer.</p>
+      <p class="eyebrow">STUDY SETUP</p><h1>Choose your<br>next challenge.</h1>
+      <p class="intro">Pick a list and how you want to practice. Missed words return later, after we show you the right answer.</p>
+      <div class="setup"><h3>Vocabulary list</h3><div id="listChoices" class="list-choices"></div><h3>Answer with</h3><div class="choice-row"><label><input type="radio" name="direction" value="word" checked> Vocabulary word <small>See the definition</small></label><label><input type="radio" name="direction" value="definition"> Definition <small>See the word</small></label></div><h3>Answer style</h3><div class="choice-row"><label><input type="radio" name="style" value="typing" checked> Type my answer</label><label><input type="radio" name="style" value="multiple"> Multiple choice</label></div></div>
       <button class="primary" id="start">Start a set</button><p id="setInfo" class="muted"></p>
     </section>
     <section id="quiz" class="panel hidden" aria-live="polite">
       <p class="eyebrow" id="progress"></p><div class="bar"><i id="bar"></i></div>
-      <h2 id="word"></h2><p>What does this word mean?</p>
-      <form id="answerForm"><label class="sr-only" for="answer">Your definition</label><input id="answer" autocomplete="off" placeholder="Type the definition…" required><button class="primary">Check answer</button></form>
+      <h2 id="word"></h2><p id="prompt"></p>
+      <form id="answerForm"><label class="sr-only" for="answer">Your answer</label><input id="answer" autocomplete="off" required><button class="primary">Check answer</button></form>
+      <div id="choices" class="choices hidden"></div>
       <div id="feedback" class="feedback hidden"></div><button id="next" class="primary hidden">Next word</button>
     </section>
     <section id="done" class="panel hidden"><p class="eyebrow">SET COMPLETE</p><h1>Excellent work.</h1><p class="intro">You completed every word correctly. Ready for a fresh set?</p><button class="primary" id="again">Start next set</button></section>
