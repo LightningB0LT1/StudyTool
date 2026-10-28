@@ -2,9 +2,9 @@
 
 A no-cost, static vocabulary study site designed for GitHub Pages. Learners get a random set of words and must answer every word correctly to complete it. When an answer is incorrect, the correct definition is shown and the word returns later in the same set.
 
-On the home screen, learners choose a vocabulary list, choose whether to answer with the word or its definition, and choose typed answers or randomized multiple-choice answers. The default is typing the vocabulary word from its definition.
+On the home screen, learners can choose one or more vocabulary lists, choose whether to answer with the word or its definition, and choose typed answers or randomized multiple-choice answers. The default is typing the vocabulary word from its definition.
 
-**Finish list in order** is the default: words stay in five-word sets, and the session ends only after every word in the full list has been answered correctly. Choose **Endless mode** for fresh random five-word sets.
+**Finish list in order** is the default: words stay in five-word sets, and the session ends only after every selected word has been answered correctly. Choose **Endless mode** for balanced random five-word sets: every selected word appears once before any word is repeated.
 
 ## Publish on GitHub Pages
 
@@ -31,7 +31,7 @@ Each word follows this shape:
 { "id": "unique-id", "word": "abate", "definition": "to become less intense or widespread", "acceptedAnswers": [] }
 ```
 
-Each selectable list has an `id`, `name`, `description`, and its own `words` list. There is currently only one full list: **Mr.Trumble weeks 1-2**. To add Weeks 3-4 later, duplicate the object below inside the `lists` array, add a comma after the existing list, then replace the title, description, and words:
+Each selectable list has an `id`, `name`, `description`, and its own `words` list. Weeks 1–13 and **Rhetorical terms** are currently separate lists, and learners can select more than one list at a time. To add a later week, duplicate an existing list object inside the `lists` array, add a comma after the existing list, then replace the title, description, and words:
 
 ```json
 {

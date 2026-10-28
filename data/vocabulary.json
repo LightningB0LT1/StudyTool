@@ -2,34 +2,161 @@
   "setLength": 5,
   "lists": [
     {
-      "id": "mr-trumble-weeks-1-2",
-      "name": "Mr.Trumble weeks 1-2",
-      "description": "24 vocabulary words from weeks 1 and 2",
+      "id": "mr-trumble-week-1",
+      "name": "Mr.Trumble week 1",
+      "description": "12 vocabulary words from week 1",
       "words": [
-        { "id": "palindrome", "word": "palindrome", "definition": "a word or phrase which reads the same backward and forward", "acceptedAnswers": [] },
-        { "id": "adage", "word": "adage", "definition": "an old saying now accepted as being truthful", "acceptedAnswers": [] },
-        { "id": "hackneyed", "word": "hackneyed", "definition": "made common by overuse", "acceptedAnswers": [] },
-        { "id": "lurid", "word": "lurid", "definition": "glowing through haze; shocking; sensational", "acceptedAnswers": [] },
-        { "id": "throe", "word": "throe", "definition": "spasm or pang", "acceptedAnswers": [] },
-        { "id": "edify", "word": "edify", "definition": "to instruct and improve the mind", "acceptedAnswers": [] },
-        { "id": "vitiate", "word": "vitiate", "definition": "to spoil; to cause moral weakness", "acceptedAnswers": [] },
-        { "id": "eminence", "word": "eminence", "definition": "a lofty place; superiority", "acceptedAnswers": [] },
-        { "id": "vehement", "word": "vehement", "definition": "using great force; described by strong feelings", "acceptedAnswers": [] },
-        { "id": "astringent", "word": "astringent", "definition": "harsh, biting", "acceptedAnswers": [] },
-        { "id": "chary", "word": "chary", "definition": "cautious", "acceptedAnswers": [] },
-        { "id": "untoward", "word": "untoward", "definition": "unfortunate", "acceptedAnswers": [] },
-        { "id": "educe", "word": "educe", "definition": "to draw out", "acceptedAnswers": [] },
-        { "id": "whet", "word": "whet", "definition": "to sharpen by rubbing; to stimulate", "acceptedAnswers": [] },
-        { "id": "relegate", "word": "relegate", "definition": "1. to assign to an inferior position; 2. to commit to an action", "acceptedAnswers": [] },
-        { "id": "lucid", "word": "lucid", "definition": "1. shiny; 2. clear-minded", "acceptedAnswers": [] },
-        { "id": "hone", "word": "hone", "definition": "1. something to sharpen; 2. to sharpen", "acceptedAnswers": [] },
-        { "id": "coy", "word": "coy", "definition": "1. modest; bashful; 2. pretending shyness to attract", "acceptedAnswers": [] },
-        { "id": "effervescence", "word": "effervescence", "definition": "1. liveliness; spirit; enthusiasm; 2. bubbliness", "acceptedAnswers": [] },
-        { "id": "fervid", "word": "fervid", "definition": "1. intensely hot; 2. impassioned", "acceptedAnswers": [] },
-        { "id": "imperious", "word": "imperious", "definition": "1. arrogant; 2. urgent", "acceptedAnswers": [] },
-        { "id": "miscreant", "word": "miscreant", "definition": "an evil person; villain", "acceptedAnswers": [] },
-        { "id": "chafe", "word": "chafe", "definition": "to annoy; to irritate", "acceptedAnswers": [] },
-        { "id": "duress", "word": "duress", "definition": "1. imprisonment; 2. the use of threats", "acceptedAnswers": [] }
+        {
+          "id": "palindrome",
+          "word": "palindrome",
+          "definition": "a word or phrase which reads the same backward and forward",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "adage",
+          "word": "adage",
+          "definition": "an old saying now accepted as being truthful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "hackneyed",
+          "word": "hackneyed",
+          "definition": "made common by overuse",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "lurid",
+          "word": "lurid",
+          "definition": "glowing through haze; shocking; sensational",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "throe",
+          "word": "throe",
+          "definition": "spasm or pang",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "edify",
+          "word": "edify",
+          "definition": "to instruct and improve the mind",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "vitiate",
+          "word": "vitiate",
+          "definition": "to spoil; to cause moral weakness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "eminence",
+          "word": "eminence",
+          "definition": "a lofty place; superiority",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "vehement",
+          "word": "vehement",
+          "definition": "using great force; described by strong feelings",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "astringent",
+          "word": "astringent",
+          "definition": "harsh, biting",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "chary",
+          "word": "chary",
+          "definition": "cautious",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "untoward",
+          "word": "untoward",
+          "definition": "unfortunate",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-2",
+      "name": "Mr.Trumble week 2",
+      "description": "12 vocabulary words from week 2",
+      "words": [
+        {
+          "id": "educe",
+          "word": "educe",
+          "definition": "to draw out",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "whet",
+          "word": "whet",
+          "definition": "to sharpen by rubbing; to stimulate",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "relegate",
+          "word": "relegate",
+          "definition": "1. to assign to an inferior position; 2. to commit to an action",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "lucid",
+          "word": "lucid",
+          "definition": "1. shiny; 2. clear-minded",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "hone",
+          "word": "hone",
+          "definition": "1. something to sharpen; 2. to sharpen",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "coy",
+          "word": "coy",
+          "definition": "1. modest; bashful; 2. pretending shyness to attract",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "effervescence",
+          "word": "effervescence",
+          "definition": "1. liveliness; spirit; enthusiasm; 2. bubbliness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "fervid",
+          "word": "fervid",
+          "definition": "1. intensely hot; 2. impassioned",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "imperious",
+          "word": "imperious",
+          "definition": "1. arrogant; 2. urgent",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "miscreant",
+          "word": "miscreant",
+          "definition": "an evil person; villain",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "chafe",
+          "word": "chafe",
+          "definition": "to annoy; to irritate",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "duress",
+          "word": "duress",
+          "definition": "1. imprisonment; 2. the use of threats",
+          "acceptedAnswers": []
+        }
       ]
     },
     {
@@ -37,182 +164,1055 @@
       "name": "Mr.Trumble week 3",
       "description": "12 vocabulary words from week 3",
       "words": [
-        { "id": "goad", "word": "goad", "definition": "to push into action", "acceptedAnswers": [] },
-        { "id": "ideology", "word": "ideology", "definition": "representative way of thinking", "acceptedAnswers": [] },
-        { "id": "salient", "word": "salient", "definition": "noticeable", "acceptedAnswers": [] },
-        { "id": "recluse", "word": "recluse", "definition": "solitary; a person who lives in seclusion", "acceptedAnswers": [] },
-        { "id": "censure", "word": "censure", "definition": "a strong expression of disapproval", "acceptedAnswers": [] },
-        { "id": "servile", "word": "servile", "definition": "a slave-like manner", "acceptedAnswers": [] },
-        { "id": "prattle", "word": "prattle", "definition": "to babble while speaking", "acceptedAnswers": [] },
-        { "id": "auspicious", "word": "auspicious", "definition": "successful", "acceptedAnswers": [] },
-        { "id": "fathom", "word": "fathom", "definition": "to understand", "acceptedAnswers": [] },
-        { "id": "covetous", "word": "covetous", "definition": "eagerly desirous", "acceptedAnswers": [] },
-        { "id": "malign", "word": "malign", "definition": "to speak evil of", "acceptedAnswers": [] },
-        { "id": "pensive", "word": "pensive", "definition": "engaged in deep thought", "acceptedAnswers": [] }
+        {
+          "id": "goad",
+          "word": "goad",
+          "definition": "to push into action",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ideology",
+          "word": "ideology",
+          "definition": "representative way of thinking",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "salient",
+          "word": "salient",
+          "definition": "noticeable",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "recluse",
+          "word": "recluse",
+          "definition": "solitary; a person who lives in seclusion",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "censure",
+          "word": "censure",
+          "definition": "a strong expression of disapproval",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "servile",
+          "word": "servile",
+          "definition": "a slave-like manner",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "prattle",
+          "word": "prattle",
+          "definition": "to babble while speaking",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "auspicious",
+          "word": "auspicious",
+          "definition": "successful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "fathom",
+          "word": "fathom",
+          "definition": "to understand",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "covetous",
+          "word": "covetous",
+          "definition": "eagerly desirous",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "malign",
+          "word": "malign",
+          "definition": "to speak evil of",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "pensive",
+          "word": "pensive",
+          "definition": "engaged in deep thought",
+          "acceptedAnswers": []
+        }
       ]
     },
     {
-      "id": "mr-trumble-rhetoric",
-      "name": "Mr.Trumble Rhetorical Vocabulary",
-      "description": "35 rhetorical and English vocabulary terms",
+      "id": "rhetorical-terms",
+      "name": "Rhetorical terms",
+      "description": "36 rhetorical terms",
       "words": [
-        { "id": "rhetorical-triangle", "word": "Rhetorical Triangle", "definition": "a diagram that illustrates the interrelationship among the speaker, audience, and subject in a determining text", "acceptedAnswers": [] },
-        { "id": "ethos", "word": "Ethos", "definition": "Speakers appeal to demonstrate that they are credible and trustworthy", "acceptedAnswers": [] },
-        { "id": "occasion", "word": "Occasion", "definition": "the time and place a speech is given or a piece is written", "acceptedAnswers": [] },
-        { "id": "rhetoric", "word": "Rhetoric", "definition": "the faculty of observing in any given case the available means of persuasion", "acceptedAnswers": [] },
-        { "id": "context", "word": "Context", "definition": "the circumstances, atmosphere, attitudes and events surrounding a text", "acceptedAnswers": [] },
-        { "id": "connotation", "word": "Connotation", "definition": "meanings that readers have with a word beyond its dictionary definition", "acceptedAnswers": [] },
-        { "id": "concession", "word": "Concession", "definition": "an acknowledgement that an opposing argument may be true or reasonable", "acceptedAnswers": [] },
-        { "id": "speaker", "word": "Speaker", "definition": "the person or group who creates a text", "acceptedAnswers": [] },
-        { "id": "audience", "word": "Audience", "definition": "the listener, viewer or reader of a text", "acceptedAnswers": [] },
-        { "id": "counterargument", "word": "Counterargument", "definition": "an opposing argument to the one a writer is putting forward", "acceptedAnswers": [] },
-        { "id": "diction", "word": "Diction", "definition": "a writer's choice of words", "acceptedAnswers": [] },
-        { "id": "logos", "word": "Logos", "definition": "Greek for \"embodied thought\"; speakers appeal to reason by offering clear and rational ideas", "acceptedAnswers": [] },
-        { "id": "polemic", "word": "Polemic", "definition": "Greek for \"hostile\"; an aggressive argument that tries to establish the superiority of one opinion", "acceptedAnswers": [] },
-        { "id": "propaganda", "word": "Propaganda", "definition": "the spread of ideas and information to further a cause", "acceptedAnswers": [] },
-        { "id": "denotation", "word": "Denotation", "definition": "the literal definition of a word", "acceptedAnswers": [] },
-        { "id": "clauses", "word": "Clauses", "definition": "a group of words containing both a subject and a verb", "acceptedAnswers": [] },
-        { "id": "exigence", "word": "Exigence", "definition": "the spark that elicited the speaker's message", "acceptedAnswers": [] },
-        { "id": "formal-diction", "word": "Formal Diction", "definition": "writing that sticks to grammatical rules and avoids slang expressions", "acceptedAnswers": [] },
-        { "id": "figurative-language", "word": "Figurative Language", "definition": "words or phrases that are not intended to be taken literally and usually involve comparisons", "acceptedAnswers": [] },
-        { "id": "rebut", "word": "Rebut", "definition": "a contrasting perspective on an argument or its evidence", "acceptedAnswers": [] },
-        { "id": "purpose", "word": "Purpose", "definition": "the goal the speaker wants to achieve", "acceptedAnswers": [] },
-        { "id": "tone", "word": "Tone", "definition": "choices in diction, syntax and figures of speech all build up over the course of a text to create an overall impression", "acceptedAnswers": [] },
-        { "id": "shifts", "word": "Shifts", "definition": "a point in a text that indicates a change", "acceptedAnswers": [] },
-        { "id": "informal-diction", "word": "Informal Diction", "definition": "a conversational form of communication", "acceptedAnswers": [] },
-        { "id": "metaphor", "word": "Metaphor", "definition": "figure of speech that compares two things without using like or as", "acceptedAnswers": [] },
-        { "id": "persona", "word": "Persona", "definition": "Greek for mask; the face or character a speaker shows to his or her audience", "acceptedAnswers": [] },
-        { "id": "subject", "word": "Subject", "definition": "the topic or message of a text", "acceptedAnswers": [] },
-        { "id": "wecampt", "word": "WECAMPT", "definition": "a mnemonic device that helps people remember the various elements of a rhetorical situation", "acceptedAnswers": [] },
-        { "id": "refutation", "word": "Refutation", "definition": "a denial of the validity of an opposing argument", "acceptedAnswers": [] },
-        { "id": "pathos", "word": "Pathos", "definition": "an appeal involving human emotions", "acceptedAnswers": [] },
-        { "id": "parallel-structure", "word": "Parallel Structure", "definition": "the repeating of the same word, clause or phrase for emphasis", "acceptedAnswers": [] },
-        { "id": "syntax", "word": "Syntax", "definition": "the arrangement of words into phrases, clauses and sentences", "acceptedAnswers": [] },
-        { "id": "allusion", "word": "Allusion", "definition": "a brief reference to a person, place, event or work of art", "acceptedAnswers": [] },
-        { "id": "analogy", "word": "Analogy", "definition": "a comparison between two seemingly dissimilar things", "acceptedAnswers": [] },
-        { "id": "hyperbole", "word": "Hyperbole", "definition": "an exaggeration or dramatic overstatement used to create a comedic or an ironic effect", "acceptedAnswers": [] }
+        {
+          "id": "rhetorical-triangle",
+          "word": "Rhetorical Triangle",
+          "definition": "a diagram that illustrates the interrelationship among the speaker, audience, and subject in a determining text",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ethos",
+          "word": "Ethos",
+          "definition": "speakers appeal to demonstrate that they are credible and trustworthy",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "occasion",
+          "word": "Occasion",
+          "definition": "the time and place a speech is given or a piece is written",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "rhetoric",
+          "word": "Rhetoric",
+          "definition": "the faculty of observing in any given case the available means of persuasion",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "context",
+          "word": "Context",
+          "definition": "the circumstances, atmosphere, attitudes and events surrounding a text",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "connotation",
+          "word": "Connotation",
+          "definition": "meanings that readers have with a word beyond its dictionary definition",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "concession",
+          "word": "Concession",
+          "definition": "an acknowledgement that an opposing argument may be true or reasonable",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "speaker",
+          "word": "Speaker",
+          "definition": "the person or group who creates a text",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "audience",
+          "word": "Audience",
+          "definition": "the listener, viewer or reader of a text",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "counterargument",
+          "word": "Counterargument",
+          "definition": "an opposing argument to the one a writer is putting forward",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "diction",
+          "word": "Diction",
+          "definition": "a writer's choice of words",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "logos",
+          "word": "Logos",
+          "definition": "Greek for embodied thought. Speakers appeal to reason by offering clear and rational ideas",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "polemic",
+          "word": "Polemic",
+          "definition": "Greek for hostile. An aggressive argument that tries to establish the superiority of one opinion",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "propaganda",
+          "word": "Propaganda",
+          "definition": "the spread of ideas and information to further a cause",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "denotation",
+          "word": "Denotation",
+          "definition": "the literal definition of a word",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "clauses",
+          "word": "Clauses",
+          "definition": "a group of words containing both a subject and a verb",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "exigence",
+          "word": "Exigence",
+          "definition": "the spark that elicited the speaker's message",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "formal-diction",
+          "word": "Formal Diction",
+          "definition": "writing that sticks to grammatical rules and avoids slang expressions",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "figurative-language",
+          "word": "Figurative Language",
+          "definition": "words or phrases that are not intended to be taken literally and usually involve comparisons",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "rebut",
+          "word": "Rebut",
+          "definition": "a contrasting perspective on an argument or its evidence",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "purpose",
+          "word": "Purpose",
+          "definition": "the goal the speaker wants to achieve",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "tone",
+          "word": "Tone",
+          "definition": "choices in diction, syntax and figures of speech all build up over the course of a text to create an overall impression",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "shifts",
+          "word": "Shifts",
+          "definition": "a point in a text that indicates a change",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "informal-diction",
+          "word": "Informal Diction",
+          "definition": "a conversational form of communication",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "metaphor",
+          "word": "Metaphor",
+          "definition": "a figure of speech that compares two things without using like or as",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "persona",
+          "word": "Persona",
+          "definition": "Greek for mask. The face or character a speaker shows to his or her audience",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "subject",
+          "word": "Subject",
+          "definition": "the topic or message of a text",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "wecampt",
+          "word": "WECAMPT",
+          "definition": "a mnemonic device that helps people remember the various elements of a rhetorical situation",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "refutation",
+          "word": "Refutation",
+          "definition": "a denial of the validity of an opposing argument",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "pathos",
+          "word": "Pathos",
+          "definition": "an appeal involving human emotions",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "parallel-structure",
+          "word": "Parallel Structure",
+          "definition": "the repeating of the same word, clause or phrase for emphasis",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "syntax",
+          "word": "Syntax",
+          "definition": "the arrangement of words into phrases, clauses and sentences",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "allusion",
+          "word": "Allusion",
+          "definition": "a brief reference to a person, place, event or work of art",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "analogy",
+          "word": "Analogy",
+          "definition": "a comparison between two seemingly dissimilar things",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "hyperbole",
+          "word": "Hyperbole",
+          "definition": "an exaggeration or dramatic overstatement used to create a comedic or ironic effect",
+          "acceptedAnswers": []
+        }
       ]
     },
     {
-      "id": "mr-trumble-weeks-1-3",
-      "name": "Mr.Trumble weeks 1-3",
-      "description": "All 36 vocabulary words from weeks 1 through 3",
+      "id": "mr-trumble-week-4",
+      "name": "Mr.Trumble week 4",
+      "description": "12 vocabulary words from week 4",
       "words": [
-        { "id": "palindrome", "word": "palindrome", "definition": "a word or phrase which reads the same backward and forward", "acceptedAnswers": [] },
-        { "id": "adage", "word": "adage", "definition": "an old saying now accepted as being truthful", "acceptedAnswers": [] },
-        { "id": "hackneyed", "word": "hackneyed", "definition": "made common by overuse", "acceptedAnswers": [] },
-        { "id": "lurid", "word": "lurid", "definition": "glowing through haze; shocking; sensational", "acceptedAnswers": [] },
-        { "id": "throe", "word": "throe", "definition": "spasm or pang", "acceptedAnswers": [] },
-        { "id": "edify", "word": "edify", "definition": "to instruct and improve the mind", "acceptedAnswers": [] },
-        { "id": "vitiate", "word": "vitiate", "definition": "to spoil; to cause moral weakness", "acceptedAnswers": [] },
-        { "id": "eminence", "word": "eminence", "definition": "a lofty place; superiority", "acceptedAnswers": [] },
-        { "id": "vehement", "word": "vehement", "definition": "using great force; described by strong feelings", "acceptedAnswers": [] },
-        { "id": "astringent", "word": "astringent", "definition": "harsh, biting", "acceptedAnswers": [] },
-        { "id": "chary", "word": "chary", "definition": "cautious", "acceptedAnswers": [] },
-        { "id": "untoward", "word": "untoward", "definition": "unfortunate", "acceptedAnswers": [] },
-        { "id": "educe", "word": "educe", "definition": "to draw out", "acceptedAnswers": [] },
-        { "id": "whet", "word": "whet", "definition": "to sharpen by rubbing; to stimulate", "acceptedAnswers": [] },
-        { "id": "relegate", "word": "relegate", "definition": "1. to assign to an inferior position; 2. to commit to an action", "acceptedAnswers": [] },
-        { "id": "lucid", "word": "lucid", "definition": "1. shiny; 2. clear-minded", "acceptedAnswers": [] },
-        { "id": "hone", "word": "hone", "definition": "1. something to sharpen; 2. to sharpen", "acceptedAnswers": [] },
-        { "id": "coy", "word": "coy", "definition": "1. modest; bashful; 2. pretending shyness to attract", "acceptedAnswers": [] },
-        { "id": "effervescence", "word": "effervescence", "definition": "1. liveliness; spirit; enthusiasm; 2. bubbliness", "acceptedAnswers": [] },
-        { "id": "fervid", "word": "fervid", "definition": "1. intensely hot; 2. impassioned", "acceptedAnswers": [] },
-        { "id": "imperious", "word": "imperious", "definition": "1. arrogant; 2. urgent", "acceptedAnswers": [] },
-        { "id": "miscreant", "word": "miscreant", "definition": "an evil person; villain", "acceptedAnswers": [] },
-        { "id": "chafe", "word": "chafe", "definition": "to annoy; to irritate", "acceptedAnswers": [] },
-        { "id": "duress", "word": "duress", "definition": "1. imprisonment; 2. the use of threats", "acceptedAnswers": [] },
-        { "id": "goad", "word": "goad", "definition": "to push into action", "acceptedAnswers": [] },
-        { "id": "ideology", "word": "ideology", "definition": "representative way of thinking", "acceptedAnswers": [] },
-        { "id": "salient", "word": "salient", "definition": "noticeable", "acceptedAnswers": [] },
-        { "id": "recluse", "word": "recluse", "definition": "solitary; a person who lives in seclusion", "acceptedAnswers": [] },
-        { "id": "censure", "word": "censure", "definition": "a strong expression of disapproval", "acceptedAnswers": [] },
-        { "id": "servile", "word": "servile", "definition": "a slave-like manner", "acceptedAnswers": [] },
-        { "id": "prattle", "word": "prattle", "definition": "to babble while speaking", "acceptedAnswers": [] },
-        { "id": "auspicious", "word": "auspicious", "definition": "successful", "acceptedAnswers": [] },
-        { "id": "fathom", "word": "fathom", "definition": "to understand", "acceptedAnswers": [] },
-        { "id": "covetous", "word": "covetous", "definition": "eagerly desirous", "acceptedAnswers": [] },
-        { "id": "malign", "word": "malign", "definition": "to speak evil of", "acceptedAnswers": [] },
-        { "id": "pensive", "word": "pensive", "definition": "engaged in deep thought", "acceptedAnswers": [] }
+        {
+          "id": "tether",
+          "word": "tether",
+          "definition": "the range or limit of one’s abilities",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ulterior",
+          "word": "ulterior",
+          "definition": "undisclosed",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "wanton",
+          "word": "wanton",
+          "definition": "unjustifiably malicious",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "odium",
+          "word": "odium",
+          "definition": "hatred",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "superfluous",
+          "word": "superfluous",
+          "definition": "excessive; unnecessary",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "accrue",
+          "word": "accrue",
+          "definition": "to come to a person or thing by way of gain or increment",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "lacerate",
+          "word": "lacerate",
+          "definition": "to tear or mangle",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "demur",
+          "word": "demur",
+          "definition": "to hesitate due to doubts",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "prodigal",
+          "word": "prodigal",
+          "definition": "wasteful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "virile",
+          "word": "virile",
+          "definition": "masculine; manly",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ignominious",
+          "word": "ignominious",
+          "definition": "contemptible; disgraceful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "impiety",
+          "word": "impiety",
+          "definition": "lack of respect",
+          "acceptedAnswers": []
+        }
       ]
     },
     {
-      "id": "mr-trumble-all",
-      "name": "Mr.Trumble All Vocabulary",
-      "description": "All 71 vocabulary words from weeks 1 through 3 and rhetorical vocabulary",
+      "id": "mr-trumble-week-5",
+      "name": "Mr.Trumble week 5",
+      "description": "12 vocabulary words from week 5",
       "words": [
-        { "id": "palindrome", "word": "palindrome", "definition": "a word or phrase which reads the same backward and forward", "acceptedAnswers": [] },
-        { "id": "adage", "word": "adage", "definition": "an old saying now accepted as being truthful", "acceptedAnswers": [] },
-        { "id": "hackneyed", "word": "hackneyed", "definition": "made common by overuse", "acceptedAnswers": [] },
-        { "id": "lurid", "word": "lurid", "definition": "glowing through haze; shocking; sensational", "acceptedAnswers": [] },
-        { "id": "throe", "word": "throe", "definition": "spasm or pang", "acceptedAnswers": [] },
-        { "id": "edify", "word": "edify", "definition": "to instruct and improve the mind", "acceptedAnswers": [] },
-        { "id": "vitiate", "word": "vitiate", "definition": "to spoil; to cause moral weakness", "acceptedAnswers": [] },
-        { "id": "eminence", "word": "eminence", "definition": "a lofty place; superiority", "acceptedAnswers": [] },
-        { "id": "vehement", "word": "vehement", "definition": "using great force; described by strong feelings", "acceptedAnswers": [] },
-        { "id": "astringent", "word": "astringent", "definition": "harsh, biting", "acceptedAnswers": [] },
-        { "id": "chary", "word": "chary", "definition": "cautious", "acceptedAnswers": [] },
-        { "id": "untoward", "word": "untoward", "definition": "unfortunate", "acceptedAnswers": [] },
-        { "id": "educe", "word": "educe", "definition": "to draw out", "acceptedAnswers": [] },
-        { "id": "whet", "word": "whet", "definition": "to sharpen by rubbing; to stimulate", "acceptedAnswers": [] },
-        { "id": "relegate", "word": "relegate", "definition": "1. to assign to an inferior position; 2. to commit to an action", "acceptedAnswers": [] },
-        { "id": "lucid", "word": "lucid", "definition": "1. shiny; 2. clear-minded", "acceptedAnswers": [] },
-        { "id": "hone", "word": "hone", "definition": "1. something to sharpen; 2. to sharpen", "acceptedAnswers": [] },
-        { "id": "coy", "word": "coy", "definition": "1. modest; bashful; 2. pretending shyness to attract", "acceptedAnswers": [] },
-        { "id": "effervescence", "word": "effervescence", "definition": "1. liveliness; spirit; enthusiasm; 2. bubbliness", "acceptedAnswers": [] },
-        { "id": "fervid", "word": "fervid", "definition": "1. intensely hot; 2. impassioned", "acceptedAnswers": [] },
-        { "id": "imperious", "word": "imperious", "definition": "1. arrogant; 2. urgent", "acceptedAnswers": [] },
-        { "id": "miscreant", "word": "miscreant", "definition": "an evil person; villain", "acceptedAnswers": [] },
-        { "id": "chafe", "word": "chafe", "definition": "to annoy; to irritate", "acceptedAnswers": [] },
-        { "id": "duress", "word": "duress", "definition": "1. imprisonment; 2. the use of threats", "acceptedAnswers": [] },
-        { "id": "goad", "word": "goad", "definition": "to push into action", "acceptedAnswers": [] },
-        { "id": "ideology", "word": "ideology", "definition": "representative way of thinking", "acceptedAnswers": [] },
-        { "id": "salient", "word": "salient", "definition": "noticeable", "acceptedAnswers": [] },
-        { "id": "recluse", "word": "recluse", "definition": "solitary; a person who lives in seclusion", "acceptedAnswers": [] },
-        { "id": "censure", "word": "censure", "definition": "a strong expression of disapproval", "acceptedAnswers": [] },
-        { "id": "servile", "word": "servile", "definition": "a slave-like manner", "acceptedAnswers": [] },
-        { "id": "prattle", "word": "prattle", "definition": "to babble while speaking", "acceptedAnswers": [] },
-        { "id": "auspicious", "word": "auspicious", "definition": "successful", "acceptedAnswers": [] },
-        { "id": "fathom", "word": "fathom", "definition": "to understand", "acceptedAnswers": [] },
-        { "id": "covetous", "word": "covetous", "definition": "eagerly desirous", "acceptedAnswers": [] },
-        { "id": "malign", "word": "malign", "definition": "to speak evil of", "acceptedAnswers": [] },
-        { "id": "pensive", "word": "pensive", "definition": "engaged in deep thought", "acceptedAnswers": [] },
-
-        { "id": "rhetorical-triangle", "word": "Rhetorical Triangle", "definition": "a diagram that illustrates the interrelationship among the speaker, audience, and subject in a determining text", "acceptedAnswers": [] },
-        { "id": "ethos", "word": "Ethos", "definition": "Speakers appeal to demonstrate that they are credible and trustworthy", "acceptedAnswers": [] },
-        { "id": "occasion", "word": "Occasion", "definition": "the time and place a speech is given or a piece is written", "acceptedAnswers": [] },
-        { "id": "rhetoric", "word": "Rhetoric", "definition": "the faculty of observing in any given case the available means of persuasion", "acceptedAnswers": [] },
-        { "id": "context", "word": "Context", "definition": "the circumstances, atmosphere, attitudes and events surrounding a text", "acceptedAnswers": [] },
-        { "id": "connotation", "word": "Connotation", "definition": "meanings that readers have with a word beyond its dictionary definition", "acceptedAnswers": [] },
-        { "id": "concession", "word": "Concession", "definition": "an acknowledgement that an opposing argument may be true or reasonable", "acceptedAnswers": [] },
-        { "id": "speaker", "word": "Speaker", "definition": "the person or group who creates a text", "acceptedAnswers": [] },
-        { "id": "audience", "word": "Audience", "definition": "the listener, viewer or reader of a text", "acceptedAnswers": [] },
-        { "id": "counterargument", "word": "Counterargument", "definition": "an opposing argument to the one a writer is putting forward", "acceptedAnswers": [] },
-        { "id": "diction", "word": "Diction", "definition": "a writer's choice of words", "acceptedAnswers": [] },
-        { "id": "logos", "word": "Logos", "definition": "Greek for \"embodied thought\"; speakers appeal to reason by offering clear and rational ideas", "acceptedAnswers": [] },
-        { "id": "polemic", "word": "Polemic", "definition": "Greek for \"hostile\"; an aggressive argument that tries to establish the superiority of one opinion", "acceptedAnswers": [] },
-        { "id": "propaganda", "word": "Propaganda", "definition": "the spread of ideas and information to further a cause", "acceptedAnswers": [] },
-        { "id": "denotation", "word": "Denotation", "definition": "the literal definition of a word", "acceptedAnswers": [] },
-        { "id": "clauses", "word": "Clauses", "definition": "a group of words containing both a subject and a verb", "acceptedAnswers": [] },
-        { "id": "exigence", "word": "Exigence", "definition": "the spark that elicited the speaker's message", "acceptedAnswers": [] },
-        { "id": "formal-diction", "word": "Formal Diction", "definition": "writing that sticks to grammatical rules and avoids slang expressions", "acceptedAnswers": [] },
-        { "id": "figurative-language", "word": "Figurative Language", "definition": "words or phrases that are not intended to be taken literally and usually involve comparisons", "acceptedAnswers": [] },
-        { "id": "rebut", "word": "Rebut", "definition": "a contrasting perspective on an argument or its evidence", "acceptedAnswers": [] },
-        { "id": "purpose", "word": "Purpose", "definition": "the goal the speaker wants to achieve", "acceptedAnswers": [] },
-        { "id": "tone", "word": "Tone", "definition": "choices in diction, syntax and figures of speech all build up over the course of a text to create an overall impression", "acceptedAnswers": [] },
-        { "id": "shifts", "word": "Shifts", "definition": "a point in a text that indicates a change", "acceptedAnswers": [] },
-        { "id": "informal-diction", "word": "Informal Diction", "definition": "a conversational form of communication", "acceptedAnswers": [] },
-        { "id": "metaphor", "word": "Metaphor", "definition": "figure of speech that compares two things without using like or as", "acceptedAnswers": [] },
-        { "id": "persona", "word": "Persona", "definition": "Greek for mask; the face or character a speaker shows to his or her audience", "acceptedAnswers": [] },
-        { "id": "subject", "word": "Subject", "definition": "the topic or message of a text", "acceptedAnswers": [] },
-        { "id": "wecampt", "word": "WECAMPT", "definition": "a mnemonic device that helps people remember the various elements of a rhetorical situation", "acceptedAnswers": [] },
-        { "id": "refutation", "word": "Refutation", "definition": "a denial of the validity of an opposing argument", "acceptedAnswers": [] },
-        { "id": "pathos", "word": "Pathos", "definition": "an appeal involving human emotions", "acceptedAnswers": [] },
-        { "id": "parallel-structure", "word": "Parallel Structure", "definition": "the repeating of the same word, clause or phrase for emphasis", "acceptedAnswers": [] },
-        { "id": "syntax", "word": "Syntax", "definition": "the arrangement of words into phrases, clauses and sentences", "acceptedAnswers": [] },
-        { "id": "allusion", "word": "Allusion", "definition": "a brief reference to a person, place, event or work of art", "acceptedAnswers": [] },
-        { "id": "analogy", "word": "Analogy", "definition": "a comparison between two seemingly dissimilar things", "acceptedAnswers": [] },
-        { "id": "hyperbole", "word": "Hyperbole", "definition": "an exaggeration or dramatic overstatement used to create a comedic or an ironic effect", "acceptedAnswers": [] }
+        {
+          "id": "obloquy",
+          "word": "obloquy",
+          "definition": "verbal condemnation or abuse of a person or thing",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "colloquial",
+          "word": "colloquial",
+          "definition": "having to do with conversation; informal speech",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "nemesis",
+          "word": "nemesis",
+          "definition": "a person who inflicts just punishment",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "dearth",
+          "word": "dearth",
+          "definition": "costliness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "effluvium",
+          "word": "effluvium",
+          "definition": "an outflow of vapor of invisible particles; a noxious odor",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "endemic",
+          "word": "endemic",
+          "definition": "constantly present in a particular country or locality",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "esoteric",
+          "word": "esoteric",
+          "definition": "understood by only a chosen few",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ethereal",
+          "word": "ethereal",
+          "definition": "very light; airy",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "exigent",
+          "word": "exigent",
+          "definition": "calling for immediate attention",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "travail",
+          "word": "travail",
+          "definition": "1. very hard work; 2. intense pain or agony",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "fastidious",
+          "word": "fastidious",
+          "definition": "excessive care or delicacy; painstaking",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "fatuous",
+          "word": "fatuous",
+          "definition": "lacking in seriousness",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-6",
+      "name": "Mr.Trumble week 6",
+      "description": "12 vocabulary words from week 6",
+      "words": [
+        {
+          "id": "feint",
+          "word": "feint",
+          "definition": "a fake show intended to deceive",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "sodden",
+          "word": "sodden",
+          "definition": "soggy",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "subsidiary",
+          "word": "subsidiary",
+          "definition": "giving a service",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "sanction",
+          "word": "sanction",
+          "definition": "to give authoritative permission",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "impetuous",
+          "word": "impetuous",
+          "definition": "moving with great force",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "obtrude",
+          "word": "obtrude",
+          "definition": "to force oneself or one’s ideas upon another",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ignoble",
+          "word": "ignoble",
+          "definition": "ordinary",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "laggard",
+          "word": "laggard",
+          "definition": "1. a person who has fallen behind; 2. moving slowly",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "languid",
+          "word": "languid",
+          "definition": "lacking vitality",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "haggard",
+          "word": "haggard",
+          "definition": "having a worn look",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "levity",
+          "word": "levity",
+          "definition": "lack of seriousness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "bereft",
+          "word": "bereft",
+          "definition": "to be deprived",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-7",
+      "name": "Mr.Trumble week 7",
+      "description": "12 vocabulary words from week 7",
+      "words": [
+        {
+          "id": "repudiate",
+          "word": "repudiate",
+          "definition": "to disown; to deny support for",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "expedient",
+          "word": "expedient",
+          "definition": "convenient in obtaining a result",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "palliate",
+          "word": "palliate",
+          "definition": "to alleviate or ease pain but not cure",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "dubious",
+          "word": "dubious",
+          "definition": "causing doubt",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "teem",
+          "word": "teem",
+          "definition": "to be stocked to overflowing",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "noisome",
+          "word": "noisome",
+          "definition": "harmful to health",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "occult",
+          "word": "occult",
+          "definition": "mysterious, beyond the range of ordinary knowledge",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "oscillate",
+          "word": "oscillate",
+          "definition": "to move back and forth",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "vouchsafe",
+          "word": "vouchsafe",
+          "definition": "to grant or give, as a favor or graciousness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "substantive",
+          "word": "substantive",
+          "definition": "existing independently of others",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "parapet",
+          "word": "parapet",
+          "definition": "a wall for protection",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "peremptory",
+          "word": "peremptory",
+          "definition": "that which cannot be denied, or changed; final",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-8",
+      "name": "Mr.Trumble week 8",
+      "description": "12 vocabulary words from week 8",
+      "words": [
+        {
+          "id": "platonic",
+          "word": "platonic",
+          "definition": "not amorous or sensual",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "enfranchised",
+          "word": "enfranchised",
+          "definition": "to free from obligation",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "quirk",
+          "word": "quirk",
+          "definition": "a peculiar trait",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "precarious",
+          "word": "precarious",
+          "definition": "risky; uncertain",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "prodigious",
+          "word": "prodigious",
+          "definition": "enormous",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "pungent",
+          "word": "pungent",
+          "definition": "sharp and piercing",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "profusion",
+          "word": "profusion",
+          "definition": "great wastefulness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "propinquity",
+          "word": "propinquity",
+          "definition": "closeness in time or place",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "virulent",
+          "word": "virulent",
+          "definition": "poisonous",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "rampart",
+          "word": "rampart",
+          "definition": "a defense",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "redolent",
+          "word": "redolent",
+          "definition": "sweet-smelling",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "redundant",
+          "word": "redundant",
+          "definition": "wordy; repetitive",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-9",
+      "name": "Mr.Trumble week 9",
+      "description": "12 vocabulary words from week 9",
+      "words": [
+        {
+          "id": "innocuous",
+          "word": "innocuous",
+          "definition": "harmless",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "exhume",
+          "word": "exhume",
+          "definition": "to unearth; to reveal",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "sedulous",
+          "word": "sedulous",
+          "definition": "working diligently",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "succinct",
+          "word": "succinct",
+          "definition": "clearly stated; concise",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "pious",
+          "word": "pious",
+          "definition": "having a religious devotion; sacred",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "meander",
+          "word": "meander",
+          "definition": "wandering aimlessly",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "zenith",
+          "word": "zenith",
+          "definition": "the highest point",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "reprobate",
+          "word": "reprobate",
+          "definition": "to condemn; to reject",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "surfeit",
+          "word": "surfeit",
+          "definition": "to indulge excessively",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "diffuse",
+          "word": "diffuse",
+          "definition": "spread out",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "tumid",
+          "word": "tumid",
+          "definition": "swollen",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "tumult",
+          "word": "tumult",
+          "definition": "a noisy commotion",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-10",
+      "name": "Mr.Trumble week 10",
+      "description": "12 vocabulary words from week 10",
+      "words": [
+        {
+          "id": "gamut",
+          "word": "gamut",
+          "definition": "a complete range",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "flippant",
+          "word": "flippant",
+          "definition": "disrespectful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "dogmatic",
+          "word": "dogmatic",
+          "definition": "making assertions with an arrogant manner",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "presage",
+          "word": "presage",
+          "definition": "a foreshadowing characteristic",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "skulk",
+          "word": "skulk",
+          "definition": "to move in a stealthy way",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "diminutive",
+          "word": "diminutive",
+          "definition": "smaller than average",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "sundry",
+          "word": "sundry",
+          "definition": "various; miscellaneous",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "quandary",
+          "word": "quandary",
+          "definition": "1. a state of uncertainty; 2. difficult situation",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "attenuate",
+          "word": "attenuate",
+          "definition": "to thin out",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "harangue",
+          "word": "harangue",
+          "definition": "to talk excitedly",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "consecrate",
+          "word": "consecrate",
+          "definition": "to declare sacred",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "tenacious",
+          "word": "tenacious",
+          "definition": "holding firmly; persistent",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-11",
+      "name": "Mr.Trumble week 11",
+      "description": "12 vocabulary words from week 11",
+      "words": [
+        {
+          "id": "flux",
+          "word": "flux",
+          "definition": "a continual change",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "malediction",
+          "word": "malediction",
+          "definition": "talking negatively about another",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "trenchant",
+          "word": "trenchant",
+          "definition": "cutting; keen or incisive",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "eclectic",
+          "word": "eclectic",
+          "definition": "made up of material from various sources",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "circumspect",
+          "word": "circumspect",
+          "definition": "considering all circumstances",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "guffaw",
+          "word": "guffaw",
+          "definition": "boisterous laughter",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ameliorate",
+          "word": "ameliorate",
+          "definition": "to improve or make better",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "contrite",
+          "word": "contrite",
+          "definition": "remorseful",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "derision",
+          "word": "derision",
+          "definition": "ridicule",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "frenetic",
+          "word": "frenetic",
+          "definition": "frenzied",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "gourmand",
+          "word": "gourmand",
+          "definition": "one who eats heartily",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "allocate",
+          "word": "allocate",
+          "definition": "to set aside; to designate; to assign",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-12",
+      "name": "Mr.Trumble week 12",
+      "description": "12 vocabulary words from week 12",
+      "words": [
+        {
+          "id": "litigate",
+          "word": "litigate",
+          "definition": "to involve a lawsuit",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "paean",
+          "word": "paean",
+          "definition": "a song of praise or triumph",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "quiescence",
+          "word": "quiescence",
+          "definition": "state of being at rest or without motion; stillness",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "plenary",
+          "word": "plenary",
+          "definition": "full; entire; absolute",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "scrupulous",
+          "word": "scrupulous",
+          "definition": "making sure all details are perfect",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "coterie",
+          "word": "coterie",
+          "definition": "a clique; a group who meets frequently, usually socially",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "ubiquitous",
+          "word": "ubiquitous",
+          "definition": "present everywhere",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "vestige",
+          "word": "vestige",
+          "definition": "a trace of something that no longer exists",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "abjure",
+          "word": "abjure",
+          "definition": "to give up",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "accolade",
+          "word": "accolade",
+          "definition": "approving or praising mention",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "rudimentary",
+          "word": "rudimentary",
+          "definition": "elementary",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "altruism",
+          "word": "altruism",
+          "definition": "unselfish devotion to the welfare of others",
+          "acceptedAnswers": []
+        }
+      ]
+    },
+    {
+      "id": "mr-trumble-week-13",
+      "name": "Mr.Trumble week 13",
+      "description": "7 vocabulary words from week 13",
+      "words": [
+        {
+          "id": "laconic",
+          "word": "laconic",
+          "definition": "sparing of words; terse; pithy",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "abstemious",
+          "word": "abstemious",
+          "definition": "sparing in use of food or drinks",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "voracious",
+          "word": "voracious",
+          "definition": "greedy in eating",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "misanthrope",
+          "word": "misanthrope",
+          "definition": "a person who hates or distrusts everything",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "wane",
+          "word": "wane",
+          "definition": "to gradually become less; to grow dim",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "termagant",
+          "word": "termagant",
+          "definition": "constantly quarrelsome woman; a shrew",
+          "acceptedAnswers": []
+        },
+        {
+          "id": "perquisite",
+          "word": "perquisite",
+          "definition": "a tip in addition to regular income",
+          "acceptedAnswers": []
+        }
       ]
     }
   ]
